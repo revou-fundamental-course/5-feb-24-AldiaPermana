@@ -1,1 +1,45 @@
-/* untuk tes git */
+/* File CSS untuk situs web Kalkulator Suhu */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+p {
+  margin: 10px 0;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 15%;
+  padding: 10px;
+  background-color: #a8bac6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#output {
+  margin: 20px 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #0099ff;
+}
+
+#explanation {
+  margin: 10px 0;
+  font-style: italic;
+}

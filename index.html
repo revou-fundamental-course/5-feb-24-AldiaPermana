@@ -1,11 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assigment Revou</title>
+    <title>Kalkulator Suhu</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Penghitung Suhu</h1>
+    <div class="container">
+      <h1>Kalkulator Suhu</h1>
+      <p>Masukkan suhu dalam derajat Celsius (°C) ke dalam kotak yang tersedia.</p>
+      <p>Klik tombol “Konversi” untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (°F).</p>
+      <p>Hasil konversi akan ditampilkan di bawah kotak input.</p>
+      <form id="form">
+        <input type="number" id="input" placeholder="Masukkan suhu (°C)" />
+        <button type="submit" id="button">Konversi</button>
+      </form>
+      <div id="output"></div>
+      <div id="explanation"></div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
